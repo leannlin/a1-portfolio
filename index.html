@@ -7,7 +7,11 @@ EMAIL: lelin2@uci.edu
 -->
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
   <meta name="author" content="Leann Lin">
   <meta name="description" content="Leann Lin's Portfolio">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
@@ -15,17 +19,31 @@ EMAIL: lelin2@uci.edu
   <title>Leann Lin's Portfolio</title>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
+  <nav class="container">
+    <div class="nav-bar">
+    <a href="index.html" class="active">Home</a>
+    <a href="experience.html">Experience</a>
+    </div>
   </nav>
   
-</main>
-  <h1>Leann Lin</h1>
-  <p>Informatics student at UC Irvine</p>
+<main class ="container">
+  <div class="row">
+    <div class ="col-md-4">
+      <img class="headshot" src="images/profile-image.jpg" alt="Leann Lin's Headshot">
+    </div>
+  <div class="col-md-8">
+    <h1>Leann Lin</h1>
+    <p>Informatics student at UC Irvine</p>
+    <h2>Feel free to contact me!</h2>
+    <ul>
+      <li>Email: lelin2@uci.edu</li>
+      <li><a href="https://www.linkedin.com/in/leannlin">LinkedIn</a></li>
+    </ul>
+    </div>
+    </div>
 </main>
 
-<footer>
+<footer class ="container">
   <p>Leann Lin, 2026</p>
 </footer>
 </body>
