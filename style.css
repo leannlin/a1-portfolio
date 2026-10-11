@@ -29,16 +29,16 @@ nav {
 
 .nav-bar a {
     padding: 0.5em 1em;
-    color: #b1dcbd;
+    color: #000000;
     border-radius: 999px;
     text-decoration: none;
 }
 
 .nav-bar a:hover {
-    background-color: #e8ffee;
+    background-color: #b6b7b6;
 }
 .nav-bar a.active {
-    background-color: #b1dcbd;
+    background-color: #000000;
     color: #ffffff;
 }
 
