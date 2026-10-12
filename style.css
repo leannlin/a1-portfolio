@@ -1,5 +1,7 @@
+
+/* page structure */
 body {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Jost', sans-serif;
     background-color: #ffffff;
     color: #222222;
 }
@@ -7,15 +9,13 @@ body {
 main {
     padding: 2em;
     padding-top: 0.9em;
-
 }
 
-main h1 {
-    margin-bottom: 1em;
-}
+/* navigation bar */
 
 nav {
     padding: 1em 0 0 0;
+    text-align: center;
 }
 
 .nav-bar {
@@ -42,6 +42,92 @@ nav {
     color: #ffffff;
 }
 
+/*banner and welcome page*/
+.banner {
+    min-height: 100vh;
+    background-color: #5470b8;
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.banner-content {
+    padding-top: 25vh;
+}
+
+.banner-title {
+    font-size: 5em;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.banner-subtitle {
+    font-size: 1.6em;
+    margin-bottom: 1.5em;
+}
+
+.banner-btn {
+    margin-right: 0;
+    padding: 0.6em 1.6em;
+}
+
+@media (max-width: 600px) {
+    .banner-title {
+        font-size: 3.5em;
+    }
+
+    .banner-subtitle {
+        font-size: 1.3em;
+    }
+}
+
+/*home page*/
+.tag {
+    margin-bottom: 1em;
+}
+
+.hero-name {
+    margin-bottom: 0.5em;
+}
+
+.hero-title {
+    margin-bottom: 0.5em;
+}
+
+.hero-bio {
+    margin-bottom: 1.5em;
+}
+.interests {
+    margin-bottom: 2.5em;
+}
+
+.interest-tag {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #6e6b6b;
+    border-radius: 999px;
+    padding: 0.4em 1em;
+    margin-right: 0.5em;
+    font-size: 0.95em;
+}
+.interests-label {
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 0.7em;
+}
+
+.headshot {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.btn {
+    margin-right: 1em;
+}
+
+
 @media (max-width: 600px) {
     .nav-bar a {
         padding: 0.5em 0.8em;
@@ -53,35 +139,60 @@ footer {
     border-top: 1px solid #cccccc;
     margin-top: 3em;
 }
-
-.headshot {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-}
-
-.job {
-    background-color: #f2fdff;
-    border: 1px solid #dddddd;
-    padding: 1.5em;
+/*experience*/
+.section-title {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.4em 1em;
+    border-radius: 999px;
     margin-bottom: 1.5em;
 }
 
-.job h2 {
-    color: #1f4e79;
-    font-size: 1.4em;
+.job-section {
+    padding: 1.5em 2em;
+    margin-bottom: 1.5em;
+    border-radius: 60px;
+    border: 1px solid #dddddd;
 }
 
-.job h2 + p {
+.job-oit {
+    background-color:#ffffff
+}
+
+.job-skechers {
+    background-color: #ffffff;
+}
+.job-mentor {
+    background-color: #ffffff;
+}
+
+/*bubbles text*/
+.job section h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.job-meta {
+    color: #777777;
+    font-size:0.9em;
+    margin-bottom: 0.5em;
+}
+.skills {
     font-size: 0.9em;
     color: #555555;
+    margin-bottom: 0;
 }
 
-.headshot {
+.job-image {
     width: 100%;
-    max-width: 250px;
-    height: auto;
+    max-width: 130px;
+    border-radius: 50%;
+    border: 3px dotted #ffffff;
+
+}
+
+#experience {
+    padding-top: 3em;
     background-color: #ffffff;
-    padding: 12px;
-    border: 1px dotted #dddddd;
 }
