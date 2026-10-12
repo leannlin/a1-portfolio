@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    padding: 2em;
+    padding: 0em;
     padding-top: 0.9em;
 }
 
@@ -67,6 +67,10 @@ nav {
     margin-bottom: 1.5em;
 }
 
+.btn {
+    margin-right: 1em;
+}
+
 .banner-btn {
     margin-right: 0;
     padding: 0.6em 1.6em;
@@ -84,38 +88,29 @@ nav {
 
 /*home page*/
 .tag {
+    font-weight: 500;
+    color: #000000;
     margin-bottom: 1em;
 }
 
 .hero-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 5em;
+    line-height: 1.1;
+    color: #000000;
     margin-bottom: 0.5em;
 }
 
 .hero-title {
+    font-size: 1.6em;
     margin-bottom: 0.5em;
 }
 
 .hero-bio {
+    color: #000000;
     margin-bottom: 1.5em;
 }
-.interests {
-    margin-bottom: 2.5em;
-}
 
-.interest-tag {
-    display: inline-block;
-    background-color: #ffffff;
-    border: 1px solid #6e6b6b;
-    border-radius: 999px;
-    padding: 0.4em 1em;
-    margin-right: 0.5em;
-    font-size: 0.95em;
-}
-.interests-label {
-    font-size: 1.5em;
-    color: #000000;
-    margin-bottom: 0.7em;
-}
 
 .headshot {
     width: 100%;
@@ -123,9 +118,6 @@ nav {
     height: auto;
 }
 
-.btn {
-    margin-right: 1em;
-}
 
 
 @media (max-width: 600px) {
@@ -135,15 +127,21 @@ nav {
 }
 
 footer {
-    padding: 1em 2em;
+    padding: 1em;
     border-top: 1px solid #cccccc;
-    margin-top: 3em;
 }
+
+.footer-text {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: #777777
+}
+
 /*experience*/
 .section-title {
     display: inline-block;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #d7d7d7;
+    color: #000000;
     padding: 0.4em 1em;
     border-radius: 999px;
     margin-bottom: 1.5em;
@@ -152,12 +150,13 @@ footer {
 .job-section {
     padding: 1.5em 2em;
     margin-bottom: 1.5em;
-    border-radius: 60px;
-    border: 1px solid #dddddd;
+    border-color: #b6b7b6;
+
+    border-radius: 30px;
 }
 
 .job-oit {
-    background-color:#ffffff
+    background-color:#ffffff;
 }
 
 .job-skechers {
@@ -166,9 +165,31 @@ footer {
 .job-mentor {
     background-color: #ffffff;
 }
+.job-icon {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.4em;
+    color: #000000;
+}
+
+.icon-oit {
+    background-color: #ffffff;
+}
+
+.icon-skechers {
+    background-color: #ffffff;
+}
+
+.icon-mentor {
+    background-color: #ffffff;
+}
 
 /*bubbles text*/
-.job section h3 {
+.job-section h3 {
     font-size: 1.2em;
     margin-bottom: 0.5em;
 }
