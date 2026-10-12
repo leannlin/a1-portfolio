@@ -64,6 +64,7 @@ nav {
 
 .banner-subtitle {
     font-size: 1.6em;
+    font-weight: 400;
     margin-bottom: 1.5em;
 }
 
@@ -134,7 +135,7 @@ footer {
 .footer-text {
     margin-top: 1.5em;
     margin-bottom: 0.5em;
-    color: #777777
+    color: #000000
 }
 
 /*experience*/
@@ -195,7 +196,7 @@ footer {
 }
 
 .job-meta {
-    color: #777777;
+    color: #000000;
     font-size:0.9em;
     margin-bottom: 0.5em;
 }
