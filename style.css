@@ -13,23 +13,18 @@ main {
 
 /* navigation bar */
 
+
 nav {
     padding: 1em 0 0 0;
     text-align: center;
 }
 
-.nav-bar {
-    display: inline-block;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 999px;
-    padding: 0.8em 1.2em;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
 .nav-bar a {
-    padding: 0.5em 1em;
+    display: inline-block;
+    padding: 0.5em 2em;
+    margin: 0.3em;
     color: #000000;
+    background-color: #ffffff;
     border-radius: 999px;
     text-decoration: none;
 }
@@ -37,6 +32,7 @@ nav {
 .nav-bar a:hover {
     background-color: #b6b7b6;
 }
+
 .nav-bar a.active {
     background-color: #000000;
     color: #ffffff;
@@ -54,6 +50,7 @@ nav {
 
 .banner-content {
     padding-top: 25vh;
+    padding-bottom: 3em;
 }
 
 .banner-title {
@@ -76,10 +73,14 @@ nav {
     margin-right: 0;
     padding: 0.6em 1.6em;
 }
+.banner-experience {
+    background-image: url("images/bannerexp.jpg");
+}
+
 
 @media (max-width: 600px) {
     .banner-title {
-        font-size: 3.5em;
+        font-size: 0.5em 1.2em;
     }
 
     .banner-subtitle {
@@ -146,6 +147,7 @@ footer {
     padding: 0.4em 1em;
     border-radius: 999px;
     margin-bottom: 1.5em;
+    font-size: 2em;
 }
 
 .job-section {
@@ -190,7 +192,7 @@ footer {
 }
 
 /*bubbles text*/
-.job-section h3 {
+.job-section h2 {
     font-size: 1.2em;
     margin-bottom: 0.5em;
 }
