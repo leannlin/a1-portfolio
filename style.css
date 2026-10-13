@@ -104,7 +104,6 @@ nav {
 .job-section {
     padding: 1.5em 2em;
     margin-bottom: 1.5em;
-    border-radius: 30px;
 }
 
 .job-section h2 {
@@ -125,12 +124,6 @@ nav {
 }
 
 .job-icon {
-    display: inline-block;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    text-align: center;
-    border-radius: 50%;
     font-size: 1.4em;
     color: #000000;
 }
@@ -165,5 +158,9 @@ footer {
 
     .banner-subtitle {
         font-size: 1.3em;
+    }
+
+    .hero-name {
+        font-size: 3em;
     }
 }

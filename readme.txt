@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for Leann Lin, lelin2@uci.edu
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -36,18 +36,19 @@ brings the user to a pdf of my resume.
 
 
 (b) CSS features
-I used Google Fonts (Jost and Playfair Display), banners for each page, and some navigation links. The navigation links have a hover animation/state.
+I used Google Fonts (Jost and Playfair Display), banners for each page, and some navigation links. The navigation links have a hover state.
 I used CSS to make the circular images on the experiences page. 
 - Custom navigation links
+- Custom padding + margins
 - Bootstrap btns
-- Google Fonts
+- Google Fonts (sans-serif and serif fallbacks)
 
 
 
 
 (c) Advanced features
 I added a navigation bar that shows the active state/current page. I also added nested selectors like job-section h2. 
-Since the assignent calls for me to consider other device and screen sizes, I used Bootstrap's grid layout that automatically
+Since the assignment calls for me to consider other device and screen sizes, I used Bootstrap's grid layout that automatically
 rearranges items on different screens, like on Figma. I also use utility classes to align items on my portfolio.
 - Navigation bar
 - Nested selectors
@@ -91,6 +92,9 @@ I asked Claude to:
 - Find any bugs in my HTML and CSS, such as unclosed div tags, any missing ">", and any other syntax errors
 - Clean up my HTML and CSS files, merging any old and unused code
 - Explain to me what exactly media queries are and how to make the page responsive
+- Fix heading orders
+
+Any changes made with Claude I made sure to review and test. I chose the design and content, and tested the site using Live Server.
 
 Images used:
 Peter the Anteater: https://www.oit.uci.edu/files/2022/07/R22_OIT_UndergraduateAnteaterfortheOITHomepage_Icon_1000x1000.png
@@ -99,10 +103,8 @@ Skechers corporate: https://about.skechers.com/wp-content/uploads/2021/10/INTL50
 Home page banner: https://i.pinimg.com/1200x/73/9f/42/739f421bd8f07e7cea297cc5c34dc8c1.jpg
 Experiences page banner: https://i.pinimg.com/736x/37/db/c8/37dbc8980f3d9a957a98f27224b1db31.jpg
 
-
-
-
-Any changes made by Claude I tested myself using Live Server.
+Inspiration:
+- Design inspiration for the navigation bar and the font/style of the webpage: https://i.pinimg.com/736x/27/8c/73/278c73d1f67a248a38198a148f2d04c4.jpg
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
@@ -110,4 +112,4 @@ N/A.
 
 
 7. Is there anything special we need to know in order to run your code?
-
+I do not think there's any special setup needed. All the images and the files should be using relative paths.
